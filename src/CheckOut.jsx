@@ -3,7 +3,7 @@ import React from "react";
 const CheckOut = () => {
   return (
     <div className="mx-auto container mt-10">
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-10">
         <div>
           <h1 className="text-[#000] text-[34px] font-medium leading-6">
             Checkout

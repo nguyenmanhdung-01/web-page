@@ -47,18 +47,24 @@ const PageDetail = () => {
       <h1 className="text-[60px] text-[#000] text-center mb-8">
         Top Reasons to Hire Interim CFO for Startups
       </h1>
-      <div className=" grid grid-cols-3 gap-10">
-        <div className=" col-span-2 px-20">
-          <div className="flex items-center mb-5">
-            <div className="font-semibold mr-[160px]">
-              <span className="text-[#0000004d]">Last updated</span>
-              <p>April 22, 2024</p>
-            </div>
-            <div className="font-semibold">
-              <span className="text-[#0000004d]">Categories</span>
-              <p>Business</p>
-            </div>
+      <div className="lg:flex items-center lg:justify-between mb-5 px-20 md:flex-col lg:flex-row md:block">
+        <div className="lg:flex items-center md:block">
+          <div className="font-semibold mr-[160px]">
+            <span className="text-[#0000004d]">Last updated</span>
+            <p>April 22, 2024</p>
           </div>
+          <div className="font-semibold">
+            <span className="text-[#0000004d]">Categories</span>
+            <p>Business</p>
+          </div>
+        </div>
+        <div className="font-semibold lg:mr-[200px] md:m-0">
+          <span className="text-[#0000004d]">Read time</span>
+          <p>11 min</p>
+        </div>
+      </div>
+      <div className=" grid lg:grid-cols-3 gap-10 md:grid-cols-1">
+        <div className=" col-span-2 px-20">
           <div>
             <h1 className="text-[24px] font-medium pt-[10px] pb-[18px]">
               Table of Contents
@@ -180,11 +186,7 @@ const PageDetail = () => {
             </p>
           </div>
         </div>
-        <div>
-          <div className="font-semibold mb-10">
-            <span className="text-[#0000004d]">Read time</span>
-            <p>11 min</p>
-          </div>
+        <div className="md:hidden lg:block">
           <Looing />
           <TableContent tables={tables} />
         </div>
