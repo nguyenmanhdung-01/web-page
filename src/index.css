@@ -5,4 +5,15 @@
 html {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
+  transition: all 0.3s linear;
+}
+
+.fixed-icons {
+  position: absolute;
+  top: 400px;
+  left: 20px;
+}
+
+.fixed-icons.fixed {
+  position: fixed;
 }

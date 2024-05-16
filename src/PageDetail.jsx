@@ -44,8 +44,21 @@ const PageDetail = () => {
 
   return (
     <div className="container mx-auto mt-10">
+      <h1 className="text-[60px] text-[#000] text-center mb-8">
+        Top Reasons to Hire Interim CFO for Startups
+      </h1>
       <div className=" grid grid-cols-3 gap-10">
         <div className=" col-span-2 px-20">
+          <div className="flex items-center mb-5">
+            <div className="font-semibold mr-[160px]">
+              <span className="text-[#0000004d]">Last updated</span>
+              <p>April 22, 2024</p>
+            </div>
+            <div className="font-semibold">
+              <span className="text-[#0000004d]">Categories</span>
+              <p>Business</p>
+            </div>
+          </div>
           <div>
             <h1 className="text-[24px] font-medium pt-[10px] pb-[18px]">
               Table of Contents
@@ -55,6 +68,11 @@ const PageDetail = () => {
             </ul>
           </div>
           <div id="1">
+            <img
+              src="https://passionates.com/wp-content/uploads/2024/04/Hire-Interim-CFO-for-Startups.png"
+              alt=""
+              className="w-full my-3"
+            />
             <h1 className="text-[32px] font-medium pt-[10px] pb-[18px]">
               Exploring the Interim CFO Advantage for Startups
             </h1>
@@ -110,6 +128,11 @@ const PageDetail = () => {
             </div>
           </div>
           <div id="4">
+            <img
+              src="https://cdn-eipmp.nitrocdn.com/ZmvUXPcuuBpGedMIxvrrPiwxyewyyhAp/assets/images/optimized/rev-f47fc51/passionates.com/wp-content/uploads/2024/04/Interim-CFO-analyzing-financial-data-1-1536x878.png"
+              alt=""
+              className="w-full my-3"
+            />
             <h1 className="text-[32px] font-medium pt-[10px] pb-[18px]">
               The Strategic Role of Interim CFOs in Startup Growth
             </h1>
@@ -158,6 +181,10 @@ const PageDetail = () => {
           </div>
         </div>
         <div>
+          <div className="font-semibold mb-10">
+            <span className="text-[#0000004d]">Read time</span>
+            <p>11 min</p>
+          </div>
           <Looing />
           <TableContent tables={tables} />
         </div>
