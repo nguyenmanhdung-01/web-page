@@ -19,60 +19,48 @@ const CheckOut = () => {
           <form className="mt-10 text-[#7F7F7F]">
             <div class="grid gap-6 mb-6 md:grid-cols-2">
               <div>
-                <label
-                  for="first_name"
-                  class="block mb-2 text-sm font-medium dark:text-white"
-                >
+                <label for="first_name" class="block mb-2 text-sm font-medium ">
                   First name
                 </label>
                 <input
                   type="text"
                   id="first_name"
-                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                   placeholder="John"
                   required
                 />
               </div>
               <div>
-                <label
-                  for="last_name"
-                  class="block mb-2 text-sm font-medium dark:text-white"
-                >
+                <label for="last_name" class="block mb-2 text-sm font-medium ">
                   Last name
                 </label>
                 <input
                   type="text"
                   id="last_name"
-                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                   placeholder="Doe"
                   required
                 />
               </div>
               <div className="col-span-2">
-                <label
-                  for="company"
-                  class="block mb-2 text-sm font-medium dark:text-white"
-                >
+                <label for="company" class="block mb-2 text-sm font-medium ">
                   Company Name (optional)
                 </label>
                 <input
                   type="text"
                   id="company"
-                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                   placeholder="Company"
                   required
                 />
               </div>
               <div className="col-span-2">
-                <label
-                  for="countries"
-                  class="block mb-2 text-sm font-medium dark:text-white"
-                >
+                <label for="countries" class="block mb-2 text-sm font-medium ">
                   Country / Region
                 </label>
                 <select
                   id="countries"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 >
                   <option selected>Choose a country</option>
                   <option value="US">United States</option>
@@ -82,53 +70,44 @@ const CheckOut = () => {
                 </select>
               </div>
               <div className="col-span-2">
-                <label
-                  for="address"
-                  class="block mb-2 text-sm font-medium dark:text-white"
-                >
+                <label for="address" class="block mb-2 text-sm font-medium ">
                   Street address
                 </label>
                 <input
                   type="text"
                   id="address"
-                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                   placeholder="House number and street name"
                   required
                 />
                 <input
                   type="text"
                   id="address"
-                  class="mt-2 bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  class="mt-2 bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                   placeholder="Apartment, suite, unit, etc. (optional)"
                   required
                 />
               </div>
               <div className="col-span-2">
-                <label
-                  for="visitors"
-                  class="block mb-2 text-sm font-medium dark:text-white"
-                >
+                <label for="visitors" class="block mb-2 text-sm font-medium ">
                   Town / City
                 </label>
                 <input
                   type="text"
                   id="visitors"
-                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                   placeholder=""
                   required
                 />
               </div>
             </div>
             <div className="col-span-2">
-              <label
-                for="countries"
-                class="block mb-2 text-sm font-medium dark:text-white"
-              >
+              <label for="countries" class="block mb-2 text-sm font-medium ">
                 State
               </label>
               <select
                 id="countries"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
               >
                 <option selected>Choose a country</option>
                 <option value="US">United States</option>
@@ -138,16 +117,13 @@ const CheckOut = () => {
               </select>
             </div>
             <div class="mb-6 col-span-2">
-              <label
-                for="phone"
-                class="block mb-2 text-sm font-medium dark:text-white"
-              >
+              <label for="phone" class="block mb-2 text-sm font-medium ">
                 Phone
               </label>
               <input
                 type="text"
                 id="phone"
-                class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="0938363"
                 required
               />
@@ -156,14 +132,14 @@ const CheckOut = () => {
             <div class="mb-6 col-span-2">
               <label
                 for="email"
-                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                class="block mb-2 text-sm font-medium text-gray-900 "
               >
                 Email
               </label>
               <input
                 type="email"
                 id="email"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="john.doe@company.com"
                 required
               />
@@ -171,14 +147,14 @@ const CheckOut = () => {
 
             <label
               for="message"
-              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              class="block mb-2 text-sm font-medium text-gray-900 "
             >
               Order notes (optional)
             </label>
             <textarea
               id="message"
               rows="4"
-              class="block p-2.5 w-full text-sm  bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              class="block p-2.5 w-full text-sm  bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
               placeholder="Notes about your order, e.g. special notes for delivery."
             ></textarea>
             <div class="flex items-start mb-6">
@@ -187,14 +163,11 @@ const CheckOut = () => {
                   id="remember"
                   type="checkbox"
                   value=""
-                  class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                  class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 "
                   required
                 />
               </div>
-              <label
-                for="remember"
-                class="ms-2 text-sm font-medium  dark:text-gray-300"
-              >
+              <label for="remember" class="ms-2 text-sm font-medium  ">
                 Keep me up to date with everything I need for digital
                 excellence.
               </label>
